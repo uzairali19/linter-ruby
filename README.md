@@ -43,7 +43,7 @@ Use `git clone https://github.com/uzairali19/linter-ruby.git` to clone the branc
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/uzairali19/enumerable_blocks/issues)
+Feel free to check the [issues page](https://github.com/uzairali19/linter-ruby/issues)
 
 ## Show your support
 
