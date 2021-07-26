@@ -5,17 +5,21 @@ class CodeCheck
   def normal
     puts 'Hello'
   end
+
   def hello
     puts 'Hello'
   end
+
   # Line length
   def hello
     puts 'this is a short string with fewer characters'
   end
+
   # Trailing white spaces
   def normal
     puts 'Hello'
   end
+
   # Empty line after end
   def normal
     puts 'Hello'
