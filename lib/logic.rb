@@ -1,7 +1,6 @@
 require 'colorize'
 require_relative 'file_read'
 # rubocop:disable Layout/LineLength
-# rubocop:disable Style/GuardClause
 module LinterCheck
   def empty_line(line, index)
     @error << "Empty line at #{index + 1}".colorize(:red) if line.strip.empty?
@@ -12,9 +11,7 @@ module LinterCheck
   end
 
   def trailing_white_space(line, index)
-    if !line.strip.empty? && line[-2] == ' '
-      @error << "Trailing white space detected at line #{index + 1}".colorize(:red)
-    end
+    @error << "Trailing white space detected at line #{index + 1}".colorize(:red) if !line.strip.empty? && line[-2] == ' '
   end
 
   def empty_end_line(line, index)
@@ -56,4 +53,3 @@ module LinterCheck
   end
 end
 # rubocop:enable Layout/LineLength
-# rubocop:enable Style/GuardClause
