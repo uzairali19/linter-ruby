@@ -223,10 +223,16 @@ Use `git clone https://github.com/uzairali19/linter-ruby.git` to clone the branc
 - Navigate the project, you can open it with VScode or any other code editor of choice
 - Happy coding!
 
-### Testing the code
+### To use the linter
 
 1. Run `bundle install`
-2. Run `Rake`
+2. Run `rake test`
+3. See the spec log on the console to check the results
+
+### To see the results of rspec
+
+1. Run `bundle install`
+2. Run `rake rspec`
 3. See the spec log on the console to check the results
 
 ## 🤝 Contributing

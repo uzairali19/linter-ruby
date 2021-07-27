@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
-task :default do
+task :rspec do
+  puts `ruby bin/rspec`
+end
+
+task :test do
   puts `ruby bin/main.rb`
 end
